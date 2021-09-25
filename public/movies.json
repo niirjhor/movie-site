@@ -1,0 +1,92 @@
+[
+  {
+    "id": 1,
+    "Name": "Lockout",
+    "WeekendCollection": 12.55,
+    "Gross": 263.55,
+    "Year": 2012,
+    "Rating": 7.1,
+    "img": "https://gdj-inr5u0ip5pewom.stackpathdns.com/wp-content/uploads/2012/03/large/movies-poster-1.jpg"
+  },
+  {
+    "id": 2,
+    "Name": "Bully",
+    "WeekendCollection": 41.32,
+    "Gross": 366.35,
+    "Year": 2021,
+    "Rating": 8.1,
+    "img": "https://graphicdesignjunction.com/wp-content/uploads/2012/03/large/movies-poster-12.jpg"
+  },
+  {
+    "id": 3,
+    "Name": "Ghost Rider",
+    "WeekendCollection": 51.43,
+    "Gross": 436.67,
+    "Year": 2007,
+    "Rating": 9.1,
+    "img": "https://graphicdesignjunction.com/wp-content/uploads/2012/03/large/movies-poster-2.jpg"
+  },
+  {
+    "id": 4,
+    "Name": "96 Minutes",
+    "WeekendCollection": 21.77,
+    "Gross": 556.55,
+    "Year": 2016,
+    "Rating": 7.4,
+    "img": "https://graphicdesignjunction.com/wp-content/uploads/2012/03/large/movies-poster-3.jpg"
+  },
+  {
+    "id": 5,
+    "Name": "Undefeated",
+    "WeekendCollection": 23.56,
+    "Gross": 274.34,
+    "Year": 2020,
+    "Rating": 7.2,
+    "img": "https://graphicdesignjunction.com/wp-content/uploads/2012/03/large/movies-poster-4.jpg"
+  },
+  {
+    "id": 6,
+    "Name": "Secret World",
+    "WeekendCollection": 32.73,
+    "Gross": 166.55,
+    "Year": 2013,
+    "Rating": 4.6,
+    "img": "https://graphicdesignjunction.com/wp-content/uploads/2012/03/large/movies-poster-5.jpg"
+  },
+  {
+    "id": 7,
+    "Name": "On the Ice",
+    "WeekendCollection": 23.66,
+    "Gross": 376.53,
+    "Year": 2016,
+    "Rating": 6.1,
+    "img": "https://graphicdesignjunction.com/wp-content/uploads/2012/03/large/movies-poster-6.jpg"
+  },
+  {
+    "id": 8,
+    "Name": "Rundskop",
+    "WeekendCollection": 20.33,
+    "Gross": 623.52,
+    "Year": 2012,
+    "Rating": 5.6,
+    "img": "https://graphicdesignjunction.com/wp-content/uploads/2012/03/large/movies-poster-7.jpg"
+  },
+  {
+    "id": 9,
+    "Name": "Mirror Mirror",
+    "WeekendCollection": 21.7,
+    "Gross": 166.55,
+    "Year": 2012,
+    "Rating": 7.5,
+    "img": "https://graphicdesignjunction.com/wp-content/uploads/2012/03/large/movies-poster-8.jpg"
+  },
+  {
+    "id": 10,
+    "Name": "Marley",
+    "WeekendCollection": 22.42,
+    "Gross": 666.55,
+    "Year": 2013,
+    "Rating": 7.1,
+    "img": "https://graphicdesignjunction.com/wp-content/uploads/2012/03/large/movies-poster-9.jpg"
+  }
+]
