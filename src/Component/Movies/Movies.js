@@ -4,7 +4,7 @@ const Movies = (props) => {
     // console.log(props);
     const { id, Name, Gross, Year, WeekendCollection, Rating, img } = props.movie;
     return (
-        <div className="div col-md-4 gy-2">
+        <div className="div col-md-4 gy-2 text-center">
             <div className="card h-100" style={{ "width": "18rem" }}>
                 <img src={img} class="card-img-top" alt="..." />
                 <div className="card-body">

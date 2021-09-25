@@ -8,19 +8,21 @@ const WatchMoviesCart = (props) => {
     const total1 = watchMoviesCart.reduce(totalReducer1, 0)
     return (
         <div>
-            <ul class="list-group">
-                <li class="list-group-item d-flex justify-content-between align-items-center">
-                    Total Watched Movies:
-                    <span class="badge bg-primary rounded-pill">{watchMoviesCart.length}</span>
+            <h2 className='bg-dark text-white text-center'>Watch List </h2>
+            <ul className="list-group">
+                <li className="list-group-item d-flex justify-content-between align-items-center">
+                    Total Watched Movies
+                    <span className="badge bg-primary rounded-pill">{watchMoviesCart.length}</span>
                 </li>
-                <li class="list-group-item d-flex justify-content-between align-items-center">
-                    A second list item
-                    <span class="badge bg-primary rounded-pill">{total.toFixed(2)}</span>
+                <li className="list-group-item d-flex justify-content-between align-items-center">
+                    Total Rating
+                    <span className="badge bg-primary rounded-pill">{total1.toFixed(2)}</span>
                 </li>
-                <li class="list-group-item d-flex justify-content-between align-items-center">
-                    A third list item
-                    <span class="badge bg-primary rounded-pill">{total1.toFixed(2)}</span>
+                <li className="list-group-item d-flex justify-content-between align-items-center">
+                    Total Box Office Collection
+                    <span className="badge bg-primary rounded-pill">{total.toFixed(2)}</span>
                 </li>
+
             </ul>
         </div>
     );
