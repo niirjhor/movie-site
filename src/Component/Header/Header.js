@@ -3,6 +3,9 @@ import './Header.css'
 const Header = () => {
     return (
         <div>
+            <div className='text-center bg-dark text-white'>
+                <h2><img className='banner-img' src="./movie-review-website.png" alt="" srcset="" /> Online Movie Review by Nirjhor</h2>
+            </div>
             <h2 className='bg-warning text-center'>Welcome to the Biggest Movie Review Site with more than 10,000 Movies</h2>
             <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
                 <div className="container-fluid nav">
