@@ -23,7 +23,8 @@ const MovieReview = () => {
                     {
                         movies.map(movie => <Movies
                             movie={movie}
-                            handleAddWatchMoviesCart={handleAddWatchMoviesCart}></Movies>)
+                            handleAddWatchMoviesCart={handleAddWatchMoviesCart}
+                            key={movie.id}></Movies>)
                     }
                 </div>
             </div>
