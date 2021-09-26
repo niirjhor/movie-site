@@ -2,7 +2,7 @@ import React from 'react';
 import './Movies.css'
 const Movies = (props) => {
     // console.log(props);
-    const { id, Name, Gross, Year, WeekendCollection, Rating, img } = props.movie;
+    const { id, Name, Gross, Year, WeekendCollection, Rating, img } = props.movie; // destructuring
     return (
         <div className="div col-md-4 gy-2 text-center">
             <div className="card bg-warning border border-dark" style={{ "width": "18rem" }}>

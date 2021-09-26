@@ -14,7 +14,7 @@ const MovieReview = () => {
     useEffect(() => {
         fetch('./movies.json')
             .then(res => res.json())
-            .then(data => SetMovies(data))
+            .then(data => SetMovies(data)) //fetch API data
     }, [])
     return (
         <div className="div row mt-4">

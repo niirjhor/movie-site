@@ -1,11 +1,11 @@
 import React from 'react';
 
 const WatchMoviesCart = (props) => {
-    const { watchMoviesCart } = props;
+    const { watchMoviesCart } = props; // destructuring
     const totalReducer = (preValue, currentValue) => preValue + currentValue.Gross;
     const totalReducer1 = (preValue, currentValue) => preValue + currentValue.Rating;
-    const total = watchMoviesCart.reduce(totalReducer, 0)
-    const total1 = watchMoviesCart.reduce(totalReducer1, 0)
+    const total = watchMoviesCart.reduce(totalReducer, 0) // calculating totol gross 
+    const total1 = watchMoviesCart.reduce(totalReducer1, 0) // calculating totol rating
     return (
         <div>
             <div>
